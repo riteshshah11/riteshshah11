@@ -1,0 +1,16 @@
+echo "*********  Question list as below ********"
+echo
+echo
+echo Q1 : Write a script to read student name , roll number marks and display the data on console
+echo      Please do write both normal approach and enhanced approach as discussed
+echo      Hint : read -p for enhanced approach
+echo
+echo
+echo Q2 : Write a script to read Employee name , emp id ,department  and save it to a file
+echo      Hint : Use redirectional operator
+echo
+echo
+echo Q3 : Write a script which takes input as dynamic string from the user and prints it lenght on the console. 
+echo      Hint : use piping concept -- echo n wc
+echo
+echo "**********************************************************"
