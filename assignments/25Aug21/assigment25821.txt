@@ -1,0 +1,8 @@
+echo "*********  Question list as below ********"
+echo
+echo
+echo Q1 : Write a script to read filename from user and remove the duplicate lines present in the file.
+echo      Hint : read -p , sort , mv , cat final content 
+echo
+echo
+echo "**********************************************************"
