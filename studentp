@@ -1,0 +1,16 @@
+#!/bin/bash
+
+ read -p "please enter the username you wish to create: " username
+ echo "the username provided is : " " $username "
+
+read -p "Please enter the student Roll Number: " Roll
+echo "the entered roll no is: " " $Roll "
+echo "The student name is ${username} and the id is ${Roll} "
+
+echo "Please enter student name: "
+read PERSON
+echo "Hello, ${PERSON}"
+echo "Please enter student ID: "
+read ID
+echo "The student ID is : ${ID}"
+echo "The student name is ${PERSON} and the id is ${ID}"
