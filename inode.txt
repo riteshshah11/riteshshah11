@@ -1,0 +1,39 @@
+
+touch mytestfile12
+stat mytestfile12
+
+$ stat mytestfile12
+  File: mytestfile12
+  Size: 0               Blocks: 0          IO Block: 65536  regular empty file
+Device: bea783a8h/3198649256d   Inode: 138767163518357454  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197609/     rit)   Gid: (197121/ UNKNOWN)
+Access: 2021-09-01 23:21:06.755653200 +0530
+Modify: 2021-09-01 23:21:06.755653200 +0530
+Change: 2021-09-01 23:21:06.754934000 +0530
+ Birth: 2021-09-01 23:21:06.754934000 +0530
+
+#equivalent command
+ls -lhi | grep mytestfile12
+
+$ ls -lhi | grep mytestfile12
+138767163518357454 -rw-r--r-- 1 rit 197121   0 Sep  1 23:21 mytestfile12
+
+other way
+$ ls -i mytestfile12
+138767163518357454 mytestfile12
+
+Check the inode usage on filesystems
+The following example checks the inodes on all the mounted filesystems, focusing on /dev/xvda1, which has a maximum inode allocation of 1,310,720:
+
+df -ih
+
+Filesystem           Inodes IUsed IFree IUse% Mounted on
+C:/Program Files/Git      -     -     -     - /
+D:    
+
+
+must show a better o/p in linux os 
+
+
+The following example checks the file count in the /root directory.
+find . | wc -l
